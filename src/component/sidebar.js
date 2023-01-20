@@ -12,17 +12,17 @@ export const Sidebar = () => {
         <LogoSection />
       </div>
       <div className="py-3 px-6">
-        <div class="relative text-gray-500 focus-within:text-gray-400 border-gray-300">
-          <span class="absolute inset-y-0 left-0 flex items-center pl-1">
-            <button type="submit" class="pl-[-2px] focus:outline-none focus:shadow-outline">
+        <div className="relative text-gray-500 focus-within:text-gray-400 border-gray-300">
+          <span className="absolute inset-y-0 left-0 flex items-center pl-1">
+            <button type="submit" className="pl-[-2px] focus:outline-none focus:shadow-outline">
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 viewBox="0 0 24 24"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
               </svg>
@@ -31,9 +31,8 @@ export const Sidebar = () => {
           <input
             type="search"
             name="q"
-            class="py-2 text-base border text-gray-500 border-gray-300 bg-white rounded-lg pl-7 pr-1 focus:outline-none focus:text-gray-500"
+            className="py-2 text-base border text-gray-500 border-gray-300 bg-white rounded-lg pl-7 pr-1 focus:outline-none focus:text-gray-500"
             placeholder="Search"
-            autocomplete="off"
           />
         </div>
         <nav className="tabs  pt-6">
@@ -63,7 +62,7 @@ export const Sidebar = () => {
 
             <div className="flex">
               <span className="font-medium text-sm text-gray-500">Dismiss</span>
-              <span className="font-medium text-sm text-[#6941C6] ml-3">What's new?</span>
+              <span className="font-medium text-sm text-[#6941C6] ml-3">What&apos;s new?</span>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import SampleData from '../utilities/sampledata.json';
 
 export const BillHistoryTable = () => {
   return (
-    <div class="flex flex-col border-b mb-8 md:px-4">
+    <div className="flex flex-col border-b mb-8 md:px-4">
       <table className="shadow-lg text-start border-red-500 ">
         <thead className="border-b bg-gray-50">
           <tr className="text-gray-500 text-xs">
@@ -36,11 +36,11 @@ export const BillHistoryTable = () => {
                 {item.date}
               </td>
               <td className="hidden md:table-cell">
-                <div className="flex text-sm items-center rounded-2xl bg-[#ECFDF3] py-0.5 w-14 justify-center">
+                <div className="flex text-sm items-center rounded-2xl bg-success-50 py-0.5 w-14 justify-center">
                   <span>
                     <img src="../check.png" />
                   </span>
-                  <span className="text-[#027A48]">{item.status}</span>
+                  <span className="text-success-700">{item.status}</span>
                 </div>
               </td>
               <td className="hidden md:table-cell text-left px-4 py-2">
